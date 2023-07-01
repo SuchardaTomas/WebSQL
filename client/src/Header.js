@@ -42,7 +42,7 @@ const Header = () => {
     </form>
     <Link to="/cart" className="nav-item nav-link active">
       <h5 className="px-5 cart">
-        <i className="fas fa-shopping-cart" /> Košík
+        <i className="fas fa-shopping-cart" /> 
         <span id="cart_count">0</span>
       </h5>
     </Link>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import Box from "./Box";
+import "./App.css";
 
 const Products = () => {
   const [books, setBooks] = useState([]);
@@ -32,13 +32,16 @@ const Products = () => {
   }
   return (
     <>
-      
+    <div className="container">
+        <div className="row text-center py-6">
+          
 
       {books.result.map((book) => (
         <Box id={book.id} name={book.name} author={book.author} publisher={book.publisher} price={book.price} language={book.language} image={book.image}/>
       ))}
       
-      
+      </div>
+      </div>
     </>
   );
 };

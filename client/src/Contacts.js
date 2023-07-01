@@ -50,7 +50,7 @@ const Contacts = () => {
               <div className="field">
                 <label className="label">Zpráva</label>
                 <div className="control">
-                  <textarea className="textarea" placeholder="zpráva" name="messagez"/>
+                  <textarea className="textarea" placeholder="zpráva" name="message"/>
                 </div>
               </div>
 
